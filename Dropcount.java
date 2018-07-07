@@ -29,7 +29,7 @@ List<WebElement> drop=w.findElements(By.tagName("select"));
            System.out.println(drop.get(i).getText());
                
                }
-               
+               w.close();
                
 
 	}
